@@ -5,6 +5,7 @@ namespace Microsoft.AspNetCore.Mvc.Versioning
 #endif
 {
     using Conventions;
+    using System;
     using System.Diagnostics.Contracts;
 #if WEBAPI
     using static Microsoft.Web.Http.Versioning.ApiVersionReader;
